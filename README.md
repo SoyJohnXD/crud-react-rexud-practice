@@ -4,7 +4,7 @@ Este proyecto es una CRUD sencilla desarrollada como parte de una experimentaci�
 
 ## Características
 
-- CRUD (Crear, Leer, Actualizar, Eliminar) utilizando React Toolkit.
+- CRUD (Crear, Leer, Actualizar, Eliminar) utilizando Redux Toolkit.
 - Estilización rápida y eficiente con la librería Tremor.
 - Almacenamiento local utilizando Local Storage.
 - Desarrollado con Vite para una configuración de proyecto rápida.
