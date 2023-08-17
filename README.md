@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+# Proyecto de Experimentación y Aprendizaje de React Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una CRUD sencilla desarrollada como parte de una experimentación y aprendizaje del uso de React Toolkit y la librería Tremor para estilos. El objetivo es explorar las capacidades de estas tecnologías y aplicarlas en un contexto práctico.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- CRUD (Crear, Leer, Actualizar, Eliminar) utilizando React Toolkit.
+- Estilización rápida y eficiente con la librería Tremor.
+- Almacenamiento local utilizando Local Storage.
+- Desarrollado con Vite para una configuración de proyecto rápida.
+- Escrito en React y TypeScript para un código más seguro y legible.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clona este repositorio en tu máquina local:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/SoyJohnXD/crud-react-rexud-practice
 ```
+2. Entra al directorio del proyecto:
+```bash
+cd crud-react-rexud-practice
+```
+3. Instalar las dependencias:
+```bash
+npm install
+```
+4. Iniciar el servidor de desarrollo:
+```bash
+npm run dev
+```
+Abrir tu navegador y visitar http://localhost:3000 para ver la aplicación en funcionamiento
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias, por favor abre un issue en este repositorio. Si deseas contribuir directamente, asegúrate de seguir las pautas de contribución
